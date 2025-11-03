@@ -1,2 +1,2 @@
 # numbering-systems-with-python
-Credits: Eric pogue
+Credits: Eric pogue and Chatgpt
