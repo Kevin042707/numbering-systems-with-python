@@ -6,7 +6,7 @@
 
 import sys
 
-print("\n🔢 Numbering Systems with Python")
+print("\n Numbering Systems with Python")
 
 arg_total = len(sys.argv)
 print("Total arguments passed:", arg_total)
@@ -23,7 +23,7 @@ if arg_total == 2:
         octal_val = oct(decimal_val)[2:]
         hex_val = hex(decimal_val)[2:].upper()
 
-        print("\n🧮 Conversions:")
+        print("\n Conversions:")
         print(f"Decimal: {decimal_val}")
         print(f"Binary:  {binary_val}")
         print(f"Octal:   {octal_val}")
@@ -32,10 +32,10 @@ if arg_total == 2:
         print(f"Reversed Binary: {binary_val[::-1]}")
 
         if decimal_val < 0:
-            print("⚠️ Note: Negative numbers may appear differently in binary/hex form.")
+            print("Note: Negative numbers may appear differently in binary/hex form.")
 
     except ValueError:
-        print("\n❌ Error: Please enter a valid integer (example: 42).")
+        print("\n Error: Please enter a valid integer (example: 42).")
 
 else:
     print("\nUsage:")
